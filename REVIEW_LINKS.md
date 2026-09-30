@@ -29,7 +29,6 @@ The revised course is the **seven private LearnDash modules** below. These links
 
 The [quiz document folder](https://drive.google.com/drive/folders/1MlJwMqWMGUpFAy8f8r36dmuJZBwkhvrY?usp=drive_link) is the safer way to inspect question wording and answer options without recording a LearnDash attempt. Its Google Drive sharing rights must be checked by the folder owner.
 
-**Known display issue:** LearnDash still titles the private Module 3b course and quiz “Complete Sources Bibliography”, although the module content is discipline-specific coaching. The links above point to the correct private course and linked quiz. We have not changed their titles or slugs in this pass.
+The private Module 3b course (post 9156) and its linked quiz (post 9158) had inherited “Complete Sources Bibliography” titles despite discipline-specific content. Their display titles were corrected on 30 September. Their existing URL slugs remain unchanged so links do not break.
 
-The private introduction lesson (post 11732, attached to private course 9059) was retitled and revised on 30 September. The live page was checked after saving. It is 255 words rather than 1,883 and no longer states that quiz answer options are shuffled. No public course was edited.
-
+The private introduction lesson (post 11732, attached to private course 9059) was retitled and revised on 30 September. The live page was checked after saving. It is 255 words rather than 1,883 and no longer states that quiz answer options are shuffled. No older published course was edited, and no quiz questions, answers, scores or settings were changed.
