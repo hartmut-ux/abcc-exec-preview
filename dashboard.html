@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>My Course — Level 3 Dashboard &amp; Lesson 1.3 (Illustrative) | ABCC</title>
+  <meta name="description" content="Illustrative ABCC Level 3 student dashboard and Lesson 1.3, Lactate as Fuel and vLa max. Fictional student record for design review; no quiz answers shown.">
+  <link rel="icon" type="image/png" href="assets/img/abcc-logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="read-progress" id="read-progress" aria-hidden="true"></div>
+
+<p class="prototype-note"><strong>Illustrative student record.</strong> The learner below is a fictional design example — no real account, progress, enrolment or payment data is shown or stored.</p>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="ABCC prototype home">
+      <img src="assets/img/abcc-logo.png" alt="ABCC logo" width="46" height="38">
+      <span class="brand-name">ABCC
+        <small>Coach development · Prototype</small>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="icon" aria-hidden="true">☰</span><span class="label">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="journal.html">Journal</a></li>
+        <li><a href="coach.html">Find a coach</a></li>
+        <li><a href="dashboard.html" aria-current="page">My course</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="dash-header">
+    <div class="wrap">
+      <p class="eyebrow" style="color:var(--abcc-red-light);">My course</p>
+      <h1>Welcome back, Sam Whitfield</h1>
+      <p class="lede">ABCC Level 3 Certificate in Cycling Coaching — revised course.</p>
+      <div class="badges">
+        <span class="badge">Revised 2026 course</span>
+        <span class="badge">Cohort: New enrolments, post go-live</span>
+        <span class="badge badge--red">Fictional student · design example</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+
+      <div class="tabs" role="tablist" aria-label="Course views" data-tabs>
+        <button class="tab" role="tab" id="tab-overview" aria-controls="panel-overview" aria-selected="true" type="button">Course overview</button>
+        <button class="tab" role="tab" id="tab-lesson" aria-controls="panel-lesson" aria-selected="false" type="button" tabindex="-1">Lesson 1.3 — Lactate as Fuel and vLa max</button>
+      </div>
+
+      <!-- ============ OVERVIEW ============ -->
+      <div class="tabpanel" role="tabpanel" id="panel-overview" aria-labelledby="tab-overview">
+        <div class="dash-grid">
+
+          <div>
+            <a class="next-card" href="#panel-lesson" data-open-tab="tab-lesson">
+              <span class="kicker">Continue where you left off</span>
+              <strong>Module 1 · Lesson 1.3 — Lactate as Fuel and vLa max</strong>
+              <span>State: <span id="lesson-state-label">In progress</span> · the Module 1 quiz follows all required
+                module content — final access rules to be confirmed.</span>
+            </a>
+
+            <div class="panel">
+              <h2>Your progress</h2>
+              <div class="progress-row">
+                <div class="labels"><strong>Module 1 — Foundations of Modern Cycling Physiology</strong><span>2 of 7 lessons · Lesson 1.3 in progress</span></div>
+                <div class="progress-track" style="grid-column:1/-1;"><div class="progress-fill" style="width:29%;"></div></div>
+              </div>
+              <div class="progress-row" style="margin-bottom:0;">
+                <div class="labels"><strong>Module 1 quiz</strong><span>Not attempted</span></div>
+                <div class="progress-track" style="grid-column:1/-1;"><div class="progress-fill progress-fill--red" style="width:0%;"></div></div>
+              </div>
+              <p class="small muted" style="margin:1rem 0 0;">Quizzes always match the course version being studied, and follow
+                completion of the module's required content. Quiz questions and answers are never shown here.</p>
+            </div>
+
+            <div class="panel">
+              <h2>Module 1 · Lesson sequence</h2>
+              <ol class="lesson-list">
+                <li class="lesson-item is-complete">
+                  <span class="lesson-num" aria-hidden="true">✓</span>
+                  <span class="lesson-name">1.1 — The Coach's Physiology Toolkit</span>
+                  <span class="lesson-state">Complete</span>
+                </li>
+                <li class="lesson-item is-complete">
+                  <span class="lesson-num" aria-hidden="true">✓</span>
+                  <span class="lesson-name">1.2 — Energy Systems and Substrate Use</span>
+                  <span class="lesson-state">Complete</span>
+                </li>
+                <li class="lesson-item is-current">
+                  <span class="lesson-num" aria-hidden="true">3</span>
+                  <span class="lesson-name">1.3 — Lactate as Fuel and vLa max</span>
+                  <span class="lesson-state">In progress</span>
+                </li>
+                <li class="lesson-item">
+                  <span class="lesson-num" aria-hidden="true">4</span>
+                  <span class="lesson-name">1.4 — Continuous Glucose Monitoring</span>
+                  <span class="lesson-state">Next after 1.3</span>
+                </li>
+                <li class="lesson-item">
+                  <span class="lesson-num" aria-hidden="true">5</span>
+                  <span class="lesson-name">1.5 — Thermoregulation, Altitude and Cold</span>
+                  <span class="lesson-state">Not started</span>
+                </li>
+                <li class="lesson-item">
+                  <span class="lesson-num" aria-hidden="true">6</span>
+                  <span class="lesson-name">1.6 — Sleep Science Foundations</span>
+                  <span class="lesson-state">Not started</span>
+                </li>
+                <li class="lesson-item">
+                  <span class="lesson-num" aria-hidden="true">7</span>
+                  <span class="lesson-name">1.7 — Female Endocrine, Autonomic Physiology and HRV Foundations</span>
+                  <span class="lesson-state">Not started</span>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div>
+            <div class="panel">
+              <h2>Course structure</h2>
+              <div class="accordion">
+                <div class="accordion-item">
+                  <h3 style="margin:0;">
+                    <button class="accordion-trigger" type="button" aria-expanded="true" aria-controls="acc-m1">
+                      Module 1 · Foundations of Modern Cycling Physiology <span class="chev" aria-hidden="true">›</span>
+                    </button>
+                  </h3>
+                  <div class="accordion-panel" id="acc-m1">
+                    <p style="margin-top:0;">Seven lessons from the coach's physiology toolkit to female endocrine and
+                      HRV foundations. <strong>In progress.</strong></p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 style="margin:0;">
+                    <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="acc-m2">
+                      Module 2 · Neuro-Mechanical Conditioning <span class="chev" aria-hidden="true">›</span>
+                    </button>
+                  </h3>
+                  <div class="accordion-panel" id="acc-m2" hidden>
+                    <p style="margin-top:0;">Eight lessons covering heavy strength training, plyometrics, core stability
+                      and bone health. Not started.</p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 style="margin:0;">
+                    <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="acc-m3">
+                      Modules 3a–6 · Applied coaching <span class="chev" aria-hidden="true">›</span>
+                    </button>
+                  </h3>
+                  <div class="accordion-panel" id="acc-m3" hidden>
+                    <p style="margin-top:0;">Performance profiling and prescription, discipline-specific application,
+                      and the annual training plan. Not started. Assessment (quizzes, the annual training plan and
+                      the presentation) is separate from lesson content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <h2>Your entitlement</h2>
+              <dl style="margin:0;">
+                <div class="verify-row"><dt>Course</dt><dd>ABCC Level 3 (revised)</dd></div>
+                <div class="verify-row"><dt>Version studied</dt><dd>Revised 2026 course</dd></div>
+                <div class="verify-row"><dt>Journal access</dt><dd>To confirm with final access rules</dd></div>
+                <div class="verify-row"><dt>Coach directory listing</dt><dd>Not applicable (student account, example)</dd></div>
+              </dl>
+            </div>
+
+            <div class="panel">
+              <h2>Assessment status</h2>
+              <p style="margin-bottom:0.5rem;">Module quizzes: <strong>none attempted</strong>. The annual training plan
+                and presentation are submitted later in the course.</p>
+              <p class="small muted" style="margin:0;">This panel shows status only. Assessment content lives in a separate,
+                access-controlled area and is never part of a lesson preview.</p>
+            </div>
+
+            <div class="panel">
+              <h2>From the research base</h2>
+              <p class="small" style="margin-bottom:0.8rem;">Lesson 1.3 pairs with Article 02 of the planned journal issue,
+                <em>Lactate as Fuel and vLa max as Variable</em>.</p>
+              <a class="button button--outline" href="journal.html">Open the journal preview</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ============ LESSON 1.3 ============ -->
+      <div class="tabpanel" role="tabpanel" id="panel-lesson" aria-labelledby="tab-lesson" hidden>
+
+        <div class="lesson-body">
+          <p class="crumbs" style="font-size:0.8rem;color:var(--abcc-mid-grey);margin-bottom:1rem;">
+            <a href="dashboard.html" data-open-tab="tab-overview" style="font-weight:600;text-decoration:none;">Course overview</a> · Module 1 · Lesson 1.3</p>
+          <p class="eyebrow">Module 1 · Lesson 1.3</p>
+          <h2 style="font-size:clamp(1.6rem,3.5vw,2.2rem);">Lactate as Fuel and vLa max</h2>
+
+          <div class="callout">
+            <strong>Source and boundary.</strong> Teaching content below is condensed from
+            <code>ABCC_Level3_Module_1_FINAL.docx</code> (August 2026 manuscript). The 28 September database backup
+            contains private LearnDash Lesson 1.3 (post 11077, course 9059); its title and six distinctive phrases
+            match the manuscript. A full editorial comparison is still needed. This page shows teaching content only —
+            it is not an assessment, and no quiz material is included.
+          </div>
+
+          <div class="lesson-objectives">
+            <h3 style="margin-bottom:0.5em;">Learning objectives</h3>
+            <p style="margin-bottom:0.5em;">By the end of this lesson, the candidate will be able to:</p>
+            <ol style="margin:0;">
+              <li>Explain the lactate shuttle theory and describe lactate's roles as fuel, signalling molecule and inter-organ substrate carrier.</li>
+              <li>Define vLa max (maximal lactate accumulation rate) and locate it as a third axis of performance profile alongside VO₂max and CP.</li>
+              <li>Describe the field test that estimates vLa max from a 15-second maximal sprint, and identify typical value ranges that distinguish sprint-profile from endurance-profile riders.</li>
+              <li>Read a vLa max value alongside CP/W′ data (from Module 3a) to inform training-fit conversations.</li>
+            </ol>
+          </div>
+
+          <h3>Lactate is not a waste product</h3>
+          <p>Lactate has been misread for a century. The traditional view — lactate as the by-product that causes
+            muscle burn and the bonk — has been overturned by the modern lactate-shuttle picture. Lactate is a fuel
+            moved between cells, between tissues and into mitochondria; a signal driving mitochondrial biogenesis and
+            metabolic adaptation; and the rate at which an athlete produces lactate at maximal glycolytic effort is a
+            measurable, individual, trainable variable.</p>
+          <p>The foundational modern reference is Brooks (2018), whose <em>Cell Metabolism</em> synthesis remains the
+            standard text for the coach reading lactate physiology. Three shuttles matter:</p>
+          <ul>
+            <li><strong>Cell-to-cell.</strong> Glycolytic muscle fibres (Type II) produce lactate; oxidative fibres
+              (Type I) and the heart take it up via monocarboxylate transporters (MCT1) and burn it.</li>
+            <li><strong>Cell-to-mitochondrion.</strong> Within a single muscle cell, lactate produced in the cytosol is
+              transported into the mitochondrion, converted back to pyruvate, and oxidised. The mitochondrion uses
+              lactate as a preferred substrate in well-trained tissue.</li>
+            <li><strong>Tissue-to-tissue.</strong> Liver uptake of lactate produces glucose (Cori cycle). The brain uses
+              lactate as substrate during exercise. The heart relies on lactate as fuel under load.</li>
+          </ul>
+          <p>The implication: lactate accumulation in the blood is not the system failing. It reflects the
+            production–clearance balance. Adaptation raises clearance capacity through increased mitochondrial density,
+            MCT1 expression and oxidative enzymes, so that at any given glycolytic rate blood lactate is lower.
+            Endurance training and hypoxic training both upregulate MCT4 expression.</p>
+
+          <h3>Lactate as signal</h3>
+          <p>The same molecule that fuels working tissue also signals adaptation. Lactate activates pathways that drive
+            PGC-1α expression, mitochondrial biogenesis and angiogenesis. Repeated exposure to elevated lactate is part
+            of why high-intensity intervals are effective: the lactate is part of the message.</p>
+          <p>This reframes coaching conversations. Riders who train hard enough to produce significant lactate, and
+            recover well enough to clear it, are signalling adaptation. Riders who only train at very low intensities
+            miss the lactate-driven signalling axis entirely. Riders who chronically sit above threshold accumulate more
+            signal than the system can process and slip toward non-functional overreaching.</p>
+
+          <h3>vLa max — the third axis</h3>
+          <p>vLa max describes how fast an athlete's glycolytic system can produce lactate when fully activated.
+            Introduced by Mader and colleagues in the 1980s and refined repeatedly, it is independent of VO₂max and of
+            CP. Two riders sharing a CP can show very different vLa max values; the higher-vLa-max rider recruits
+            glycolysis faster and recovers anaerobic capacity differently.</p>
+          <p>The field-test protocol is a maximal 15-second sprint with blood lactate sampled before and at intervals
+            after. The rate of rise, corrected for the alactic phase, yields an estimate. Harnish and colleagues (2023)
+            reported acceptable reliability when the protocol is controlled; a 2024 follow-up showed that small changes
+            in the alactic-correction method shift the estimate meaningfully; Meixner and colleagues (2024)
+            independently confirmed reliability; Yang and colleagues (2023) refined the calculation using energy-system
+            contributions.</p>
+          <p>Typical value ranges:</p>
+          <ul>
+            <li><strong>vLa max above ~0.7 mmol·L⁻¹·s⁻¹:</strong> sprinter, track or short-track profile. Strong
+              glycolytic recruitment, fast anaerobic capacity, less suited to ultra-aerobic events.</li>
+            <li><strong>vLa max below ~0.4 mmol·L⁻¹·s⁻¹:</strong> long-duration endurance specialist. Limited glycolytic
+              ceiling, well-suited to GC and TT-type efforts, will struggle in repeated short attacks.</li>
+          </ul>
+          <div class="callout">
+            <strong>Cross-reference to Module 3a.</strong> Module 3a Lesson 3a.3 owns the CP / W′ / FTP test protocols and
+            Module 3a Lesson 3a.4 owns the interval prescription built on this physiology. This lesson teaches what is
+            being measured; Module 3a teaches how to measure it and how to use the numbers.
+          </div>
+
+          <h3>Practical coaching applications</h3>
+          <ul>
+            <li><strong>Diagnose the rider, not the discipline.</strong> A road racer with surprisingly poor short-effort
+              recovery may have a higher vLa max than expected for the event; a time-trialist who blows up on the first
+              attack may sit on the wrong side of their own glycolytic profile.</li>
+            <li><strong>Match the training to the trait.</strong> Riders with high vLa max benefit from work that shifts
+              the glycolytic profile downward — sustained Zone 2 / FAT max sessions (see Lesson 1.2), longer threshold
+              work, fewer ultra-short maximal repeats. Riders with low vLa max chasing criterium results benefit from
+              short maximal sprints and explosive repeats.</li>
+            <li><strong>Calibrate event-fit advice.</strong> vLa max gives the coach a vocabulary for honest event-fit
+              conversations. The athlete pursuing a target that does not match their glycolytic profile is choosing the
+              harder path — defensible if they want to, but the coach should make the trade-off explicit.</li>
+          </ul>
+
+          <div class="key-takeaways">
+            <h3>Key takeaways</h3>
+            <ul>
+              <li>Lactate is fuel, signal and substrate carrier — not waste.</li>
+              <li>The lactate shuttle moves lactate cell-to-cell, cell-to-mitochondrion and tissue-to-tissue.</li>
+              <li>vLa max is a third performance-profile axis alongside VO₂max and CP, measurable from a 15-second maximal sprint.</li>
+              <li>Sprinter profiles sit above ~0.7 mmol·L⁻¹·s⁻¹; long-duration endurance specialists sit below ~0.4.</li>
+              <li>Module 3a owns the CP/W′ test protocols and interval prescription; this lesson owns the underlying physiology.</li>
+            </ul>
+          </div>
+
+          <h3>Lesson sources</h3>
+          <ul class="source-list">
+            <li>Brooks, G.A. (2018). The Science and Translation of Lactate Shuttle Theory. <em>Cell Metabolism</em>, 27(4), 757–785. <a href="https://doi.org/10.1016/j.cmet.2018.03.008">doi.org/10.1016/j.cmet.2018.03.008</a></li>
+            <li>Harnish, C.R., King, D., Swensen, T.C. (2023). Reliability of the 15-s Maximal Lactate Accumulation Rate (VLa max) Test for Cycling. <em>Physiologia</em>. <a href="https://doi.org/10.3390/physiologia3040040">doi.org/10.3390/physiologia3040040</a></li>
+            <li>Harnish, C.R., King, D., Swensen, T.C. (2024). Methodological changes to alactic time estimation. <em>Journal of Science and Cycling</em>. <a href="https://doi.org/10.28985/1324.jsc.10">doi.org/10.28985/1324.jsc.10</a></li>
+            <li>Meixner, B., Filipas, L., Sperlich, B. (2024). Reliability of power output, maximal rate of capillary blood lactate accumulation, and pure maximal anaerobic power. <em>Physiological Reports</em>. <a href="https://doi.org/10.14814/phy2.16086">doi.org/10.14814/phy2.16086</a></li>
+            <li>Takeda, K., et al. (2022). Effect of endurance training and PGC-1α overexpression on calculated lactate production volume. <em>Scientific Reports</em>. <a href="https://doi.org/10.1038/s41598-022-05593-1">doi.org/10.1038/s41598-022-05593-1</a></li>
+            <li>Wang, R., et al. (2020). Short-term hypoxic training increases monocarboxylate transporter 4. <em>Physiological Reports</em>. <a href="https://doi.org/10.14814/phy2.14473">doi.org/10.14814/phy2.14473</a></li>
+            <li>Yang, W., et al. (2023). A modified formula using energy system contributions. <em>Frontiers in Physiology</em>. <a href="https://doi.org/10.3389/fphys.2023.1147321">doi.org/10.3389/fphys.2023.1147321</a></li>
+          </ul>
+          <p class="small muted">Recommended videos listed in the source lesson (Fast Talk Laboratories and INSCYD) are omitted
+            from this prototype because third-party embeds are out of scope for a local, self-contained preview.</p>
+
+          <div class="lesson-toolbar">
+            <button class="button" id="mark-complete" type="button">Mark lesson as read</button>
+            <button class="button button--outline" id="reset-progress" type="button">Reset local progress</button>
+          </div>
+          <p class="small muted" style="margin-top:0.8rem;">“Mark as read” saves to this browser's local storage only —
+            it demonstrates the interaction without writing to any server. The Module 1 quiz follows the required
+            module content; the final access rules need ABCC approval. The quiz is never shown here.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <img src="assets/img/abcc-logo-white.png" alt="" width="64">
+      <h2>ABCC</h2>
+      <p>A coach-development organisation: the revised Level 3 course, the Journal of Cycling Coaching,
+        and a directory of verified coaches.</p>
+    </div>
+    <nav aria-label="Footer — explore">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="journal.html">Journal preview</a></li>
+        <li><a href="coach.html">Find a coach</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h3>About this prototype</h3>
+      <ul>
+        <li>Four static pages for design review</li>
+        <li>Fictional records, clearly labelled</li>
+        <li>No accounts, payments or live integrations</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    © 2026 ABCC — design prototype only. Journal issue shown is planned, not published; coach and learner records are fictional examples.
+  </div>
+</footer>
+
+<button class="back-top" id="back-top" type="button" aria-label="Back to top">↑</button>
+<script src="assets/js/main.js"></script>
+<script>
+  /* "Continue"/breadcrumb shortcuts that jump straight to the lesson tab. */
+  document.querySelectorAll("[data-open-tab]").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const tab = document.getElementById(link.getAttribute("data-open-tab"));
+      if (tab) tab.click();
+      tab && tab.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+</script>
+</body>
+</html>
