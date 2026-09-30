@@ -31,4 +31,4 @@ The [quiz document folder](https://drive.google.com/drive/folders/1MlJwMqWMGUpFA
 
 The private Module 3b course (post 9156) and its linked quiz (post 9158) had inherited “Complete Sources Bibliography” titles despite discipline-specific content. Their display titles were corrected on 30 September. Their existing URL slugs remain unchanged so links do not break.
 
-The private introduction lesson (post 11732, attached to private course 9059) was retitled and revised on 30 September. The live page was checked after saving. It is 255 words rather than 1,883 and no longer states that quiz answer options are shuffled. No older published course was edited, and no quiz questions, answers, scores or settings were changed.
+The private introduction lesson (post 11732, attached to private course 9059) was retitled and shortened on 30 September. The live page was checked after saving. It no longer states that quiz answer options are shuffled. The later contact-line update directs all course, assessment and technical questions to `admin@abcc.co.uk`. No older published course was edited, and no quiz questions, answers, scores or settings were changed.
