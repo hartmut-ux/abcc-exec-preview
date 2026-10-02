@@ -1,4 +1,4 @@
-# ABCC executive review links — 30 September 2026
+# ABCC executive review links — 2 October 2026
 
 This is a design and course review, not a launch. The four website pages are a public static prototype. The coach and learner are fictional; Issue 04:2026 is planned. No account, payment or course action works on the prototype.
 
@@ -15,6 +15,8 @@ This is a design and course review, not a launch. The four website pages are a p
 
 The revised course is the **seven private LearnDash modules** below. These links return 404 unless the visitor is signed in with a WordPress account allowed to view private courses. The older published Level 3 modules are a different course version and are not in this review.
 
+The seven quiz links point to the existing live LearnDash quizzes. All 41 reviewed question changes were saved to those quizzes on 2 October and checked against fresh exports. Each quiz still has 20 one-point questions, an 80% pass mark, no timer and no shuffle. Signed-in reviewers with access to the private courses will see the revised questions through the links below.
+
 [Start here — revised course introduction](https://www.abcc.co.uk/courses/module-1-foundations-of-modern-cycling-physiology/lessons/abcc-level-3-cycling-coaching-course-course-introduction-and-study-guide/)
 
 | Part | Course module | Linked quiz |
@@ -27,8 +29,8 @@ The revised course is the **seven private LearnDash modules** below. These links
 | 5 | [The Psychology of High Performance](https://www.abcc.co.uk/courses/module-5-copy/) | [Module 5 quiz](https://www.abcc.co.uk/courses/module-5-copy/quizzes/abcc-level-3-module-5-quiz/) |
 | 6 | [Equipment Science and the Craft of Modern Coaching](https://www.abcc.co.uk/courses/abcc-level-3-module-6-equipment-science-and-the-craft-of-modern-coaching/) | [Module 6 quiz](https://www.abcc.co.uk/courses/abcc-level-3-module-6-equipment-science-and-the-craft-of-modern-coaching/quizzes/abcc-level-3-module-6-quiz/) |
 
-The [quiz document folder](https://drive.google.com/drive/folders/1MlJwMqWMGUpFAy8f8r36dmuJZBwkhvrY?usp=drive_link) is the safer way to inspect question wording and answer options without recording a LearnDash attempt. Its Google Drive sharing rights must be checked by the folder owner.
+The [quiz document folder](https://drive.google.com/drive/folders/1MlJwMqWMGUpFAy8f8r36dmuJZBwkhvrY?usp=drive_link) is separate from LearnDash and may contain an older copy. Use the live quiz links above for the current questions. A reviewer who needs to inspect wording without recording an attempt should request the current learner copy from ABCC. The folder's Google Drive sharing rights must be checked by its owner.
 
 The private Module 3b course (post 9156) and its linked quiz (post 9158) had inherited “Complete Sources Bibliography” titles despite discipline-specific content. Their display titles were corrected on 30 September. Their existing URL slugs remain unchanged so links do not break.
 
-The private introduction lesson (post 11732, attached to private course 9059) was retitled and shortened on 30 September. The live page was checked after saving. It no longer states that quiz answer options are shuffled. The later contact-line update directs all course, assessment and technical questions to `admin@abcc.co.uk`. No older published course was edited, and no quiz questions, answers, scores or settings were changed.
+The private introduction lesson (post 11732, attached to private course 9059) was retitled and shortened on 30 September. The live page was checked after saving. It no longer states that quiz answer options are shuffled. The later contact-line update directs all course, assessment and technical questions to `admin@abcc.co.uk`. The 2 October quiz edits used the existing question posts in the private-course quizzes; older published courses and learner attempt records were not edited.
